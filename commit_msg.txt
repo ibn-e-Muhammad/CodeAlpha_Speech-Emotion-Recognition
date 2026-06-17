@@ -1,7 +1,0 @@
-feat: complete end-to-end Pipeline C (Speech Emotion Recognition)
-
-- Conducted comprehensive CREMA-D dataset reconnaissance, aligning 7,442 clips to a native 16kHz audio footprint.
-- Applied rigorous 3-way speaker-independent split strategy (73/9/9 actors) to explicitly prevent vocal tract data leakage.
-- Engineered a robust VGG-style 3-Stage 2D CNN architecture, successfully converging ~1.8M optimized parameters.
-- Achieved stable training convergence with a 58.07% validation accuracy, actively shielded by ReduceLROnPlateau tuning and EarlyStopping.
-- Secured final test pool metrics of 52.98% Accuracy and 0.5295 F1-Score on strictly unseen audio matrices.

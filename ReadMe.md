@@ -12,7 +12,7 @@ A complete end-to-end Machine Learning pipeline for Speech Emotion Recognition (
    ```bash
    streamlit run app.py
    ```
-   *The Streamlit studio supports direct file uploads or live microphone recording (automatically downsampled and tensor-aligned for inference).*
+   _The Streamlit studio supports direct file uploads or live microphone recording (automatically downsampled and tensor-aligned for inference)._
 
 ---
 
@@ -117,5 +117,7 @@ _Note: Training terminated gracefully at epoch 18 due to the `EarlyStopping` cal
 - **Backend Signal Mirrors:** Seamlessly executes real-time 16kHz audio resampling, 3.0-second array gating (padding/truncating), 40 MFCC conversion, and matrix z-score transformations perfectly matched to Phase 2 conditions.
 
 ---
+
 ### Final Declaration
-**Pipeline C (Speech Emotion Recognition) is officially finalized, closed, and secured.**
+
+**Pipeline (Speech Emotion Recognition) is officially finalized, closed, and secured.**
