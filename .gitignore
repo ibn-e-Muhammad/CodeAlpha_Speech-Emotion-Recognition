@@ -1,0 +1,14 @@
+# Python Clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env/
+
+# Heavy Local Audio Datasets
+*.wav
+*.npy
+
+# Production Asset Whitelisting
+!pipeline_audio/models/speech_emotion_cnn.keras
+!pipeline_audio/data/processed/scaler.pkl
