@@ -18,21 +18,21 @@ A complete end-to-end Machine Learning pipeline for Speech Emotion Recognition (
 
 ## Project Architecture
 
-├── src/
-│ ├── config.py
-│ ├── data_preprocessing.py
-│ ├── model.py
-│ ├── train.py
-│ └── evaluate.py
-├── pipeline_audio/
-│ └── data/
-│ ├── raw/ (7,442 .wav files)
-│ └── processed/ (.npy binaries, scaler.pkl)
-│ └── models/ (speech_emotion_cnn.keras)
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── ReadMe.md
+- ├── src/
+- │ ├── config.py
+- │ ├── data_preprocessing.py
+- │ ├── model.py
+- │ ├── train.py
+- │ └── evaluate.py
+- ├── pipeline_audio/
+- │ └── data/
+- │ ├── raw/ (7,442 .wav files)
+- │ └── processed/ (.npy binaries, scaler.pkl)
+- │ └── models/ (speech_emotion_cnn.keras)
+- ├── app.py
+- ├── requirements.txt
+- ├── .gitignore
+- └── ReadMe.md
 
 ---
 
